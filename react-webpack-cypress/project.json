@@ -4,6 +4,21 @@
   "sourceRoot": "react-webpack-cypress/src",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project react-webpack-cypress --web",
-  "targets": {}
+  "targets": {
+    "serve": {
+      "options": {
+        "port": 5001
+      }
+    },
+    "preview": {
+      "options": {
+        "port": 5001
+      }
+    },
+    "serve-static": {
+      "options": {
+        "port": 5001
+      }
+    }
+  }
 }
